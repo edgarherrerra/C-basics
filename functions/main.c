@@ -42,7 +42,7 @@ int power(int base, int n)
 // 1. Without arguments and return value.
 void emptyFunction(void);
 
-int emptyFunction(void) 
+void emptyFunction(void) 
 {
   /* Code */
 }
