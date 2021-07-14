@@ -61,5 +61,12 @@ void partialFunction(float)
 int returnFunction();
 
 // 4. With arguments and return a value.
+
+/* As a side note about arguments:
+  Pass-by-reference, the var is modified because it receives the memory location where the value is.
+  pass-by-value, the var is not modified because the language create a copy. i.e it's a different memory location.
+
+  C always uses pass-by-value
+*/
 int functionName(int, float);
 
